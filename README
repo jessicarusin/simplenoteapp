@@ -1,0 +1,17 @@
+s is a very simple version of the notes application.
+
+I used the Eclipse IDE to develop this. I was able to test it using the emulator.  Please feel free to try to run the app through eclipse. 
+It is a simple interface that allows the user to enter a note and save it.  It has a simple UI that calls a Node.JS rest server and stores the data in a MongoDB.
+I have a backend RestAPI running on my own EC2 instance.  To test it feel free to go to http://54.235.108.219/notes/1
+
+
+Some thoughts on Incomplete Items or areas of focus given more time:
+
+1. Exception handling is not complete yet  
+2. Validating user input would have to be more robust
+3. I was thinking that it would be good to check network connectivity and if it was not available to either alert the user or use a 
+local storage method and push the data when the connectivity comes back
+4. Unit testing is not complete.  I am reading about how to test the activities and have started an Android test project.  Still working on this...
+5. Security has not been implemented
+6. Storing more parameters with the note such as a timestamp, etc.
+7. Ability to edit and delete notes
