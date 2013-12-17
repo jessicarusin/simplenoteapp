@@ -1,4 +1,4 @@
-s is a very simple version of the notes application.
+This is a very simple version of the notes application.
 
 I used the Eclipse IDE to develop this. I was able to test it using the emulator.  Please feel free to try to run the app through eclipse. 
 It is a simple interface that allows the user to enter a note and save it.  It has a simple UI that calls a Node.JS rest server and stores the data in a MongoDB.
